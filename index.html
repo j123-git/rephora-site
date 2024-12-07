@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rephora - Sustentabilidade para Farmácias</title>
+    <style>
+        /* Estilos Gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #004d80; /* Azul escuro */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo img {
+            width: 60px;
+            margin-right: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #008c7a; /* Verde */
+        }
+
+        nav ul li a:hover {
+            background-color: #006f5a;
+        }
+
+        #intro {
+            text-align: center;
+            background-color: #e0f7f4;
+            padding: 50px 20px;
+        }
+
+        #intro img {
+            width: 150px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #parceiros img {
+            width: 150px;
+            margin: 10px;
+        }
+
+        #contactos form {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #004d80;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="rephora-logo.png" alt="Logo Rephora">
+            <h1>Rephora</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#como-funciona">Como Funciona</a></li>
+                <li><a href="#parceiros">Parceiros</a></li>
+                <li><a href="#contactos">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <h2>Bem-vindo ao Rephora</h2>
+        <p>Unimos farmácias e consumidores para evitar desperdícios e promover a sustentabilidade no setor de saúde.</p>
+        <img src="rephora-logo.png" alt="Logo do Rephora">
+    </section>
+
+    <section id="quem-somos">
+        <h2>Quem Somos</h2>
+        <p>Somos uma plataforma que conecta farmácias com consumidores para reduzir perdas de produtos e promover a sustentabilidade.</p>
+    </section>
+
+    <section id="como-funciona">
+        <h2>Como Funciona</h2>
+        <p>Farmácias cadastram produtos excedentes, consumidores reservam pela app, e a compra é finalizada presencialmente.</p>
+    </section>
+
+    <section id="parceiros">
+        <h2>Parceiros</h2>
+        <div>
+            <img src="anf-logo.png" alt="Logo ANF">
+            <img src="adifa-logo.png" alt="Logo ADIFA">
+            <img src="apifarma-logo.png" alt="Logo APIFARMA">
+            <img src="groquifar-logo.png" alt="Logo GROQUIFAR">
+        </div>
+    </section>
+
+    <section id="contactos">
+        <h2>Contactos</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Rephora. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
